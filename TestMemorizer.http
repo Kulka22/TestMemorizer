@@ -1,0 +1,6 @@
+@TestMemorizer_HostAddress = http://localhost:5213
+
+GET {{TestMemorizer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
