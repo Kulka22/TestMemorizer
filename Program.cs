@@ -25,6 +25,9 @@ namespace TestMemorizer
 
             app.UseHttpsRedirection();
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
             app.UseAuthorization();
 
 
